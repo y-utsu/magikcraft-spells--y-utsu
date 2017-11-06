@@ -1,6 +1,6 @@
 const magik = magikcraft.io;
-hogehoge
-function fly() {
+
+function fly2() {
     magik.satio();
     magik.volare();
 }
