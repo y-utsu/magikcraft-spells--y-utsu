@@ -10,4 +10,5 @@ function showMemory() {
         magik.dixit(memory[key]);
         count++;
      }
+     magik.dixit(memory.toString());
 }
