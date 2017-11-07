@@ -1,9 +1,9 @@
 const magik = magikcraft.io;
 
 function showMemory() {
-     const thing = magik.exmemento();
-     for (var key in thing) {
+     const memory = magik.exmemento();
+     for (var key in memory) {
         magik.dixit(key);
-        magik.dixit(thing[key]);
+        magik.dixit(memory[key]);
      }
 }
