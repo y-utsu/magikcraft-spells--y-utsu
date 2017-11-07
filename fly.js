@@ -1,7 +1,7 @@
 const magik = magikcraft.io;
 
-function fly(duration = undefined) {
-    if (duration == undefined) {
+function fly(duration = -1) {
+    if (duration == -1) {
         magik.volare();
         magik.dixit("undefined");
     } else {
