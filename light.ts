@@ -1,7 +1,7 @@
 const magik = magikcraft.io;
 
 function light() {
-
+    magik.dixit("light");
     var counter = 3;
     var lit = 
         function (){
@@ -12,6 +12,6 @@ function light() {
             }
             counter--;
         };
-    lit;
+    lit();
 }
 
