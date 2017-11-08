@@ -1,11 +1,12 @@
 const magik = magikcraft.io;
 
-function fly(duration = -1) {
-    if (duration == -1) {
+function fly(seconds = -1) {
+    if (seconds == -1) {
         magik.volare();
         magik.dixit("undefined");
     } else {
-        magik.volare(duration);
-        magik.dixit(duration);
+        // 10秒だと duration が大体 200
+        magik.volare(seconds*20);
+        magik.dixit(seconds*20);
     }
 }
