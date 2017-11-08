@@ -1,5 +1,16 @@
 const magik = magikcraft.io;
 
 function light() {
-    magik.noxvida();
+    var counter = 3;
+    var lit = 
+        function (){
+            magik.dixit("counter:"+counter);
+            magik.noxvida();
+            if (0 <= counter){
+                setTimeout(lit, 10000);
+            }
+            counter--;
+        };
+    lit;
 }
+
